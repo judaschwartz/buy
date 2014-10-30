@@ -1,0 +1,1068 @@
+@charset "utf-8";
+/* CSS responsive */
+
+@media only screen and (max-width: 680px){
+	h1.h1 {
+		font-size: 24px;
+		background-size: contain;
+		-moz-background-size: contain;
+		-webkit-background-size: contain;
+		-o-background-size: contain;
+	}
+}
+
+
+/*Start header*/
+@media only screen and (max-width: 1130px){
+	header .nav_line ul.nav li a{
+		font-size: 11px;
+		padding: 12px 7px;
+	}
+}
+
+@media only screen and (min-width: 860px){
+	.cbp-spmenu {
+		display: none;
+	}
+}
+@media only screen and (max-width: 860px){
+	header .dark_line {
+		text-align: left;
+		position: relative;
+	}
+	header .nav_line{
+		display: none;
+	}
+	.cbp-spmenu .sub_menu {
+		padding: 0;
+		margin: 0;
+		display: none;
+		list-style: none;
+		transition: all ease-in 0.2s;
+		-moz-transition: all ease-in 0.2s;
+		-o-transition: all ease-in 0.2s;
+		-webkit-transition: all ease-in 0.2s;
+	}
+	.cbp-spmenu .sub_menu.open_sub_menu {
+		display:block;
+		transition: all ease-in 0.2s;
+		-moz-transition: all ease-in 0.2s;
+		-o-transition: all ease-in 0.2s;
+		-webkit-transition: all ease-in 0.2s;
+	}
+	/*
+	header .h_mobile {
+		display: inline-block;
+		float: right;
+		
+	}
+	
+	header .h_mobile input{
+		display: none;
+	}
+	
+	header .h_mobile > label{
+		background-color: #fa6f00;
+		width: 40px;
+		height: 30px;
+		display: inline-block;
+		background-image:url(../image/btn_nav.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: 8px 0;
+		cursor: pointer;
+	}
+	ul.nav_mobile{
+		display: none;
+		opacity: 1;
+		position: absolute;
+		top: 50px;
+		left: 0;
+		width:100%;
+		padding: 0;
+	}
+	
+	header .h_mobile input#btn_nav:checked ~ .nav_mobile{
+		display: block;
+		opacity: 1;
+	}
+	ul.nav_mobile li{
+		z-index: 100;
+		width: 100%;
+		display: block;
+		text-align: center;
+		border-top: 1px solid #340000;
+	}
+	header ul.nav li ul.sub_menu {
+		visibility: inherit;
+		opacity: 1;
+		display: none;
+		position: relative;
+	}
+	header ul.nav li ul.sub_menu.open {
+		display: block;
+	}
+	header ul.nav li ul.sub_menu.open  {
+		display: block;
+		border-bottom: 1px solid #340000;
+	}
+	
+	
+	ul.nav_mobile li ul.sub_menu li{
+		border-top: none;
+	}
+	*/
+}
+@media only screen and (max-width: 600px){
+	.cbp-spmenu h3 {
+		font-size: 20px;
+		padding: 10px 14px;
+		font-weight: 400;
+	}
+	.cbp-spmenu-vertical a {
+		padding: 8px 12px;
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 500px){
+	header .dark_line a img{
+		width: 190px;
+		margin: 8px 0 5px;
+	}
+}
+/*End header*/
+
+
+
+
+/*Start banner*/
+@media only screen and (max-width: 1160px){
+	.banner {
+		padding-bottom: 20px;
+	}
+	.banner .text_banner{
+		padding-top: 50px;
+		width: 43%;
+	}
+	.banner .text_banner h1{
+		font-size:20px;
+	}
+	.banner .text_banner p {
+		font-size: 12px;
+	}
+	/* to old version width cartoon
+	.img_index_banner{
+		transform: scale(0.8,0.8);
+		-moz-transform: scale(0.8,0.8);
+		-o-transform: scale(0.8,0.8);
+		-webkit-transform: scale(0.8,0.8);
+	}
+	.img_index_banner{
+		margin-top: 40px
+	}
+	.img_index_banner img{
+		width:100%;
+	}
+	*/
+}
+@media only screen and (max-width: 920px){
+	/*
+	.banner {
+		height: auto;
+	}
+	*/
+	.banner .text_banner{
+		width: 50%;
+	}
+	.banner .text_banner h2{
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 800px){
+	.banner {
+		height: auto;
+	}
+	.banner .text_banner{
+		width: 100%;
+		text-align: center;
+		padding-top: 20px;
+	}
+	.img_index_banner{
+		display: none;
+	}
+	
+	
+	/*
+	.img_index_banner{
+		display: block;
+		float: none;
+		margin: 10px auto;
+		width: 480px;
+	}
+	*/
+}
+@media only screen and (max-width: 800px){
+	.banner .wrapper {
+		padding: 0 30px;
+	}
+	section {
+		margin: 40px auto;
+	}
+}
+@media only screen and (max-width: 520px){
+	.img_index_banner{
+		width: 360px;
+	}
+}
+@media only screen and (max-width: 400px){
+	.img_index_banner{
+		width: 280px;
+	}
+}
+/*End banner*/
+
+
+
+
+
+
+/*Free Download*/
+@media only screen and (max-width: 650px){
+	.line_download p{
+		font-size: 16px;
+	}
+	.line_download button{
+		font-size: 16px;
+		margin: 10px 5px;
+	}
+}
+@media only screen and (max-width: 450px){
+	.md-content h3 {
+		padding: 0.4em;
+		font-size: 1.4em !important;
+	}
+	.md-content input[type="text"] {
+		padding: 6px;
+		width: 230px;
+		border: 1px solid #FFF;
+		margin: 7px auto;
+	}
+	.md-content p {
+		margin: 7px auto;
+		font-size: 13px;
+		display: block;
+	}
+}
+/*End Free Download*/
+
+
+
+
+
+/*steps*/
+@media only screen and (max-width: 860px){
+	.bg_steps{
+		background-image: none;
+		margin: 0px auto;
+		padding-bottom: 0;
+	}
+	.step{
+		margin: 10px 20px;
+	}
+}
+/*End Free Download*/
+
+
+
+
+
+/*post % stock */
+@media only screen and (max-width: 1200px){
+	.stock {
+		transform: scale(0.85);
+		-moz-transform: scale(0.85);
+		-webkit-transform: scale(0.85);
+		-o-transform: scale(0.85);
+		margin-top: 0;
+	}
+	.posts {
+		width: 55%;
+	}
+	.posts .one_post .post_text {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 980px){
+	.posts h1 {
+		font-size: 24px;
+		margin : 10px 0;
+	}
+	.posts .one_post img {
+		width: 35%
+	}
+	.posts .one_post .post_text {
+		width: 60%;
+	}
+	.post_details span {
+		font-size: 13px;
+	}
+	.posts .one_post .post_text p{
+		font-size: 12px;
+		margin-bottom: 8px;
+	}
+}
+@media only screen and (max-width: 860px){
+	.stock_box {
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+	}
+	.posts {
+		width: 100%;
+		display: block;
+		margin-bottom: 60px;
+	}
+	.posts .one_post img {
+		max-width: 27%;
+	}
+	.posts .one_post .post_text {
+		width: 70%;
+	}
+	.post_details span {
+		font-size: 13px;
+	}
+	.posts .one_post .post_text p{
+		font-size: 12px;
+		margin-bottom: 8px;
+	}
+}
+@media only screen and (max-width: 400px){
+	.posts {
+		text-align: center;
+	}
+	.posts .one_post {
+		display: block;
+	}
+	.posts .one_post img {
+		display: block;
+		margin: 10px auto;
+	}
+	.posts .one_post .post_text {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	section a.red_link {
+		float: none;
+		text-align: center;
+		margin: 0px auto;
+	}
+}
+
+/* End post % stock */
+
+
+
+
+
+/*Start News*/
+@media only screen and (max-width: 1200px){
+	.news .left_news {
+		left: 20px;
+	}
+	.news .right_news {
+		right: 20px;
+	}
+}
+@media only screen and (max-width: 860px){
+	.news .arrow{
+		opacity: 0.6;
+	}
+}	
+@media only screen and (max-width: 720px){
+	.news .all_financial_news {
+		max-width: 550px;
+	}
+}	
+@media only screen and (max-width: 420px){
+	.news .all_financial_news {
+		max-width: 280px;
+	}
+	.news .financial_new {
+		width:  240px;
+		margin: 20px 1.5%;
+	}
+	.news .left_news, .news .right_news {
+		top: 52%;
+		transform: scale(0.7); 
+	}
+	.news .left_news {
+		left: 5px; 
+	}
+	.news .right_news {
+		right: 5px; 
+	}
+	.news .financial_new h3 {
+		padding: 0 8px 0 8px;
+		font-size: 15px;
+		line-height: 18px;
+	}
+	.news .financial_new p {
+		padding: 0 8px 0 8px;
+		max-height: 70px;
+		overflow: hidden;
+	}
+	.news .financial_new .red_link {
+		padding: 0 8px 0 8px;
+	}
+}
+/*End News*/
+
+
+/*********End Index************/
+
+
+
+
+
+
+
+/*Start brokers reviews*/
+
+/*banner*/
+@media only screen and (max-width: 1160px){
+	.banner.brokers_banner .text_banner{
+		padding-top: 30px;
+	}
+	.banner.brokers_banner .text_banner h1{
+		font-size:28px;
+	}
+	.banner.brokers_banner .text_banner p {
+		font-size: 14px;
+	}
+	.banner.brokers_banner .banner_img {
+		width: 30%;
+	}
+}
+
+/* about-us */
+@media only screen and (max-width: 920px){ 
+	.about_us_page img.banner_img{
+		width: 35% !important;
+	}
+}
+/*end about-us*/
+
+
+@media only screen and (max-width: 800px){	
+	.banner.brokers_banner .text_banner {
+		padding-top: 20px;
+	}
+	.banner.brokers_banner img.banner_img {
+		position: relative;
+		top: 15px;
+		right: auto;
+		left: 32%;
+		margin: 10px auto;
+		text-align: center;
+		width: 36%;
+	}
+	
+	/* to about-us */
+	.about_us_page.banner {
+		padding-bottom: 0px;
+	}
+}
+@media only screen and (max-width: 520px){
+	.banner.brokers_banner img.banner_img {
+		left: 20%;
+		width: 60%;
+	}
+	
+	/* to about-us */
+	.about_us_page.banner.brokers_banner img.banner_img{
+		left: 14% !important;
+		width: 72% !important;
+	}
+}
+@media only screen and (max-width: 400px){
+	.img_index_banner{
+		width: 280px;
+	}
+	.banner.brokers_banner .text_banner h1{
+		font-size:22px;
+	}
+}
+/*End banner*/
+
+@media only screen and (max-width: 600px){
+	.rating {
+		font-size: 28px;
+		width: 280px;
+		margin: 20px 0px 20px 10px;
+	}
+	.rating img {
+		width: 150px;
+		margin: 8px 20px 0px 10px;
+	}
+}
+
+/*reviews*/
+@media only screen and (max-width: 1100px){
+	.accordion article p {
+		font-size: 13px;
+		line-height: 17px;
+	}
+	
+	.broker_info a.start_trading {
+		padding: 2px 5px;
+	}
+	.broker_info h2 {
+		font-size: 16px;
+	}
+	.broker_info p{
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width: 820px){
+	.accordion {
+		width: 100%;
+		display: block;
+	}
+	
+	.broker_info{
+		width: 90%;
+		display: block;
+		margin: 0;
+		padding: 5%;
+	}
+}
+@media only screen and (max-width: 520px){
+	.accordion label {
+		padding: 8px 10px;
+		height: auto;
+		cursor: pointer;
+		color: #4A0C0D;
+		line-height: 20px;
+		font-size: 12px;
+	}
+	.faq_page .accordion label {
+		padding: 8px 30px 8px 10px;
+	}
+	.faq_page .accordion label:before {
+    	top: 15px;
+	}
+	.accordion input:checked ~ label {
+		font-size: 14px;
+	}
+	h1.rating {
+		width: 100%;
+		font-size: 24px;
+	}
+	h1.rating img {
+		width: 160px;
+		margin-top: 5px;
+		margin-right: 80px;
+	}
+	.accordion input:checked ~ article.small{
+		height:100px;
+	}
+	.accordion input:checked ~ article.medium{
+		height: 170px;
+	}
+	.accordion input:checked ~ article.large{
+		height: 240px;
+	}
+	.accordion input:checked ~ article.xlarge{
+		height: 380px;
+	}
+
+}
+@media only screen and (max-width: 400px){
+	h1.rating img {
+		width: 120px;
+		margin-top: 8px;
+		margin-right: 40px;
+	}
+	.accordion article p {
+		font-size: 12px;
+		line-height: 16px;
+		padding: 0px 20px 0 12px;
+	}
+	
+	.accordion input:checked ~ article.small{
+		height:110px;
+	}
+	.accordion input:checked ~ article.medium{
+		height: 185px;
+	}
+	.accordion input:checked ~ article.large{
+		height: 280px;
+	}
+	.accordion input:checked ~ article.xlarge{
+		height: 470px;
+	}
+	
+	section button.start_trading {
+		font-size: 17px;
+		padding: 10px 20px;
+	}
+}
+/*End reviews*/
+
+/*End brokers reviews*/
+
+
+
+/* start trading_assest*/
+/*banner*/
+@media only screen and (max-width: 920px){
+	.banner .trading_assest .text_banner{
+		padding-top: 35px;
+	}
+	.banner .trading_assest .text_banner h1{
+		font-size:24px;
+	}
+	.banner .trading_assest img.assest_logo {
+		margin: 30px 0px 0px;
+		width: 250px;
+	}
+	.banner .trading_assest img.computer_img {
+		position: absolute;
+		top: 45px;
+		width: 250px;
+	}
+}
+@media only screen and (max-width: 800px){	
+	.banner .trading_assest .text_banner {
+		padding-top: 20px;
+	}
+	
+	.banner .trading_assest .text_banner{
+		width: 50%;
+		text-align: left;
+		display: inline-block;
+		transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-webkit-transform: scale(0.8);
+		-o-transform: scale(0.8);
+	}	
+	.banner .trading_assest img.computer_img {
+		top: 50px;
+		right: 20px;
+		width: 200px;
+		display: inline-block;		
+	}
+
+}
+@media only screen and (max-width: 520px){
+	.banner .trading_assest .text_banner{
+		width: 70%;
+	}	
+	.banner .trading_assest img.computer_img {
+		top: 60px;
+		right: 15px;
+		width: 170px;	
+	}
+}
+@media only screen and (max-width: 450px){
+	.banner .trading_assest .text_banner{
+		width: 100%;
+		display: block;	
+	}	
+	.banner .trading_assest img.computer_img {
+		position: relative;
+		top: auto;
+		right: auto;
+		left: 20%;
+		width: 60%;
+		display: block;	
+		margin-bottom: 20px;	
+	}
+}
+/*End banner*/
+
+
+
+/*assest_box*/
+@media only screen and (max-width: 960px){
+	.stock {
+		margin: -80px auto 0;
+	}
+	.stock .assest_box {
+		width: 42%;
+		vertical-align: top;
+	}
+}
+
+@media only screen and (max-width: 520px){
+	.stock {
+		margin: -150px auto 0;
+	}
+	.stock .assest_box {
+		width: 90%;
+		padding: 5%;
+		height: auto;
+	}
+	.assest_box img.broker_logo {
+		display: block;
+		width: 40%;
+		margin: 30px auto 0px;
+		position: relative;
+		bottom: auto;
+		left: auto;
+	}
+	
+	nav.trading_assest a {
+		border: 1px solid #FA6F00;
+		padding: 4px 12px;
+		font-weight: 700;
+		font-size: 13px;
+		transition: all 0.2s ease-in 0s;
+		display: inline-block;
+		margin: 8px 5px 0px 0;
+	}
+}
+/*End assest_box*/
+/* End trading_assest*/
+
+
+
+
+
+
+
+/*Start binary Option news*/
+
+@media only screen and (max-width: 1150px){
+	.binary_option_news {
+		max-width: 800px;
+		text-align: center;
+		margin: 0px auto;
+	}
+}
+@media only screen and (max-width: 1000px){
+	.binary_option_news {
+		max-width: 100%;
+		width: 100%;
+	}
+	.news .binary_option_news .financial_new {
+		width: 240px;
+		margin: 15px 10px;
+	}
+}
+@media only screen and (max-width: 800px){
+	.news .binary_option_news .financial_new {
+		width: 280px;
+	}
+}
+/*
+@media only screen and (max-width: 850px){
+	.binary_option_news {
+		max-width: 500px;
+	}
+	.news .financial_new {
+		width: 230px;
+	}
+}
+*/
+@media only screen and (max-width: 600px){
+	.binary_option_news {
+		max-width: 100%;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.news .binary_option_news .financial_new {
+		width:45% !important;
+		margin: 30px 1% !important;
+		display: inline-block !important;
+	}
+}
+@media only screen and (max-width: 450px){
+	.news .binary_option_news .financial_new {
+		width: 90% !important;
+		margin: 30px 5% !important;
+		text-align: left !important;
+	}
+	.news .financial_new .red_link {
+		text-align: left;
+	}
+}
+
+
+
+/*start how to trade*/
+@media only screen and (max-width: 680px){
+	.banner.faqs_banner h1 {
+		font-size: 40px;
+		margin: 24px 20px;
+	}
+	.accordion label span {
+		margin: 4px 0px 0px;
+	}
+}
+@media only screen and (max-width: 400px){
+	.banner.faqs_banner h1 {
+		font-size: 24px;
+	}
+}
+
+
+
+/*Start sidebar*/
+
+@media only screen and (max-width: 1200px){
+	.sidebar .content_side img{
+		width: 45%;
+		height: auto;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.sidebar .content_side a.text_top_new{
+		display: inline-block;
+		vertical-align: top;
+		width: 46%;
+		height: auto;
+		padding-left: 10px;
+		color: #7A7A7A;
+	}
+	.sidebar .content_side a.text_top_new p{
+		display: none;
+	}
+}
+@media (min-width: 600px) and (max-width: 1150px){
+	.sidebar .bg_title h2 {
+		font-size: 16px;
+	}
+	.sidebar ul.steps_side li{
+		padding-left: 60px;
+		background-size: 60px auto;
+		font-size: 14px;
+	}
+	.sidebar ul.top_brokers_side li span {
+		padding: 6px;
+		font-size: 12px;
+	}
+	.sidebar ul.top_brokers_side li img {
+		width: 60%;
+	}
+}
+@media (min-width: 650px) and (max-width: 1000px){
+	.sidebar {
+		width: 94%;
+		margin: 10px 3%;
+		height: auto;
+		display: block;
+		vertical-align: top;
+		display: flex;
+    	justify-content:space-between; 
+	}
+	.part_sidebar {
+		display: inline-block;
+		vertical-align: top;
+		width: 32.5%;
+	}
+	.sidebar .bg_title h2 {
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 649px){
+	.sidebar {
+		width: 100%;
+		display: block;
+		margin: 0;
+	}
+	.sidebar .content_side img{
+		width: 100px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.sidebar .content_side a.text_top_new{
+		display: inline-block;
+		width: 63%;
+		width: calc(100% - 130px);
+		width: calc(100% - 130px);
+		-moz-width: calc(100% - 130px);
+		-webkit-width: calc(100% - 130px);
+		-o-width: calc(100% - 130px);
+		height: auto;
+		padding-left: 10px;
+	}
+	.sidebar .content_side a.text_top_new p{
+		display: block;
+	}
+	.sidebar ul.top_brokers_side li img {
+		width: auto;
+	}
+	.sidebar .content_side .one_new {
+		height: auto;
+		overflow: auto;
+		margin: 15px 0px;
+		
+	}
+}
+@media only screen and (max-width: 400px){
+	.sidebar .content_side img {
+		width: 80px;
+	}
+	.sidebar .bg_title h2 {
+		font-size: 17px;
+	}
+}
+/*
+@media (min-width: 600px) and (max-width: 750px){
+	.sidebar ul.top_brokers_side li  {
+		text-align: center;
+		margin: 0px auto;
+	}
+	.sidebar ul.top_brokers_side li span {
+		padding: 5px;
+		font-size: 13px;
+		margin: 0 auto;
+	}
+	.sidebar ul.top_brokers_side li img {
+		width: 100%;
+		margin: 15px auto 0;
+	}
+}
+@media only screen and (max-width: 900px){
+	.sidebar .content_side .one_new {
+		height: auto;
+		overflow: auto;
+	}
+	.sidebar .content_side img{
+		width: 100%;
+		display: block;
+	}
+	.sidebar .content_side a.text_top_new{
+		display: block;
+		width: 100%;
+		height: auto;
+		padding-left: 0;
+	}
+}
+@media only screen and (max-width: 820px){
+	.sidebar {
+		width: 100%;
+		display: block;
+		margin: 0;
+	}
+	.sidebar .content_side img{
+		width: 100px;
+		display: inline-block;
+	}
+	.sidebar .content_side a.text_top_new{
+		display: inline-block;
+		max-width: 63%;
+		height: auto;
+		padding-left: 10px;
+	}
+	.sidebar .content_side a.text_top_new p{
+		display: block;
+	}
+}
+@media only screen and (max-width: 420px){
+	.sidebar .content_side img{
+		width: 75px;
+	}
+	.sidebar .content_side a.text_top_new{
+		display: inline-block;
+		min-width: 150px;
+	}
+	.sidebar .content_side a.text_top_new h3{
+		font-size: 12px;
+	}
+	.sidebar .content_side a.text_top_new p{
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 340px){
+	.sidebar .content_side a.text_top_new{
+		width: 130px;
+		min-width: 130px;
+	}
+}
+
+/*End sidebar*/
+
+
+
+
+
+/*Start Contact us*/
+@media only screen and (max-width: 980px){
+	.contact_form, .contact_details{
+		width: 290px;
+	}
+}
+@media only screen and (max-width: 720px){
+	.contact_form, .contact_details{
+		width: 94%;
+		margin: 10px 3%;
+	}
+}
+
+/*End Contact us*/
+
+
+
+
+/*share_social_media*/
+@media only screen and (max-width: 800px){ 
+	.share_social_media{
+		display: none;
+	}
+}
+@media only screen and (min-width: 800px){ 
+	.share_line_m {
+		display: none;
+	}
+}
+@media only screen and (max-width: 799px){ 
+	.share_line_m {
+		display: block;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		box-shadow: -2px 0 4px rgba(0,0,0,0.4);
+		background-color: rgba(228,228,228,1.00);
+	}
+	.share_line_m button {
+		display: inline-block;
+		width: 43%;
+		margin: 0;
+		padding: 0;
+		cursor: pointer;
+		background-color: rgba(228,228,228,1.00);
+		border: none;
+		line-height: 35px;
+		border-right: 1px solid #C8C8C8;
+		font-size: 13px;
+		color: #7A7A7A;
+		transition: all ease-in 0.15s;
+		-moz-transition: all ease-in 0.15s;
+		-o-transition: all ease-in 0.15s;
+		-webkit-transition: all ease-in 0.15s;
+	}
+	.share_line_m button:hover {
+		color: #340000;
+	}
+	.share_line_m button:first-child {
+		width: 12%;
+		float: left;
+	}
+	.share_line_m button:last-child {
+		float: right;
+	}
+}
+
+
+
+
+
+/*end share_social_media
+.share_social_media,*/ .share_line_m {
+	display: none !important;
+}

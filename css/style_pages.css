@@ -1,0 +1,884 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner {
+	height: 380px;
+}
+
+.banner .wrapper{
+	position: relative;
+}
+
+.banner .text_banner{
+	width: 50%;
+	padding-top: 30px;
+}
+
+.banner .text_banner h1 {
+	font-size: 36px;
+	color: #fa6f00;
+}
+
+.banner .text_banner h4 {
+	font-size: 16px;
+	color: #4a0c0d;
+}
+
+.banner img.banner_img {
+	position: absolute;
+	top: 55px;
+	right: 55px;
+}
+
+
+.banner button.start_trading {
+	margin: 15px auto;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	background-color: #fa6f00;
+	padding: 14px 20px;
+	transition: all ease-in 0.15s;
+	-moz-transition: all ease-in 0.15s;
+	-webkit-transition: all ease-in 0.15s;
+	-o-transition: all ease-in 0.15s;
+}
+.banner button.start_trading a {	
+}
+.banner button.start_trading:hover {
+	background-color: #4a0c0d; 
+}
+
+
+
+/**/
+.banner.article_banner{
+	height: auto;
+}
+.banner .article_banner{
+	height: auto;
+}
+.banner.article_banner .text_banner{
+	width: 100%;
+	padding: 30px 0;
+}
+
+
+
+
+
+section.wrapper{
+	margin: 10px auto 30px;
+	text-align: center;
+}
+
+
+.rating {
+	text-align: left;
+	color: #4a0c0d;
+	font-size: 50px;
+	margin: 20px 0 40px 10px;
+	width: 450px;
+}
+.rating img {
+	float: right;
+	margin-top: 20px;
+}
+
+.left_side {
+	width: 72%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+
+
+
+
+/*sidebar*/
+
+.sidebar {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2%;
+	margin-top: 10px;
+	/*background-color: #f9f9f9;*/
+}
+
+.sidebar .bg_title{
+	background-color: #e8e8e8;
+}
+
+.sidebar  .bg_title h2 {
+	font-weight: 300;
+	font-size: 20px;
+	color: #310708;
+	text-align: left;
+	padding: 10px 2px;
+	margin: 0 20px;
+	border-bottom: 2px solid #310708;
+	width: auto;
+	display: inline-block;
+}
+
+.sidebar .content_side {
+	padding: 0px 15px;
+}
+.sidebar .content_side img{
+	width: 100px;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.sidebar .content_side .one_new {
+	height: 100px;
+	overflow: hidden;
+	margin: 15px 0; 	
+}
+.sidebar .content_side .one_new:hover a.text_top_new{
+	text-decoration: underline;
+}
+
+.sidebar .content_side a.text_top_new{
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	height: auto;
+	padding-left: 10px;
+	color: #7A7A7A;
+}
+.sidebar .content_side a.text_top_new h3{
+	margin: 0;
+	font-size: 13px;
+}
+.sidebar .content_side a.text_top_new p{
+	margin: 5px 0;
+	font-size: 13px;
+}
+
+.sidebar ul{
+	padding: 0px;
+	margin: 0;
+}
+.sidebar ul li{
+	list-style: none;
+	padding: 22px 20px;
+}
+.sidebar ul li:nth-child(2n){
+	background-color: #fcfcfc;
+}
+.sidebar ul li:nth-child(2n+1){
+	background-color: #f9f9f9;
+	
+}
+
+.sidebar ul.steps_side li{
+	padding-left: 90px;
+	background-position: center left;
+	background-repeat: no-repeat;
+	font-size: 17px;
+}
+.sidebar ul.steps_side li:nth-child(1){
+	background-image: url(../image/step1_small.png);
+}
+.sidebar ul.steps_side li:nth-child(2){
+	background-image: url(../image/step2_small.png);
+}
+.sidebar ul.steps_side li:nth-child(3){
+	background-image: url(../image/step3_small.png);
+}
+
+
+.sidebar ul.top_brokers_side li span {
+	background-color: #4A0C0D;
+	border-radius: 50%;
+	padding: 10px;
+	color: #ffffff;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+.sidebar ul.top_brokers_side li img {
+	vertical-align: middle;
+}
+/*sidebar*/
+
+
+
+
+
+
+
+
+/*Start accordion*/
+
+.accordion{
+	width: 65%;
+	margin: 0px 0 50px;
+	text-align: left;
+	display: inline-block;
+}
+.accordion label{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px 20px;
+	position: relative;
+	z-index: 20;
+	display: block;
+	height: 30px;
+	cursor: pointer;
+	color: #4a0c0d;
+	line-height: 33px;
+	font-size: 15px;
+	background-color: #f5f5f5;
+	font-weight: 700;
+	border-left: 3px solid #a9abaf; 
+	margin: 2px 0 0;
+	transition: all ease-in 0.2s;
+	-moz-transition: all ease-in 0.2s;
+	-webkit-transition: all ease-in 0.2s;
+	-o-transition: all ease-in 0.2s;
+}
+
+.accordion label:hover{
+	background: #fa6f00;
+	border-left: 3px solid #fa6f00;
+	color: #ffffff;
+}
+
+.accordion label span  {
+	float: right;
+	height: 14px;
+	margin: 7px 0px 0px 0;
+	background-image: url(../image/stars/star.png);
+	background-repeat: repeat-x;
+	background-position: top right;
+}
+.accordion label span.one_star {
+	width: 15px;
+}
+.accordion label span.two_stars {
+	width: 30px;
+}
+.accordion label span.third_stars {
+	width: 45px;
+}
+.accordion label span.four_stars {
+	width: 60px;
+}
+.accordion label span.five_stars {
+	width: 75px;
+}
+
+.accordion label:hover span{
+	background-position: bottom right;
+}
+.accordion input:checked + label:hover span{
+	background-position: top right;
+}
+
+.accordion input:checked + label,
+.accordion input:checked + label:hover{
+	background-color: #f5f5f5;
+	border-left: 3px solid #fa6f00;
+}
+.accordion label:hover:after,
+.accordion input:checked + label:hover:after{
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 13px;
+	top: 7px;
+	background: transparent url(../images/arrow_down.html) no-repeat center center;	
+}
+
+.accordion input:checked ~ label{
+	color: #fa6f00;
+	font-weight: 700;
+	font-size: 17px;
+}
+.accordion input:checked ~ label:hover{
+	color: #fa6f00;
+	border-left: 3px solid #fa6f00;
+}
+.accordion input:checked + label:hover:after{
+	background-image: url(../images/arrow_up.html);
+}
+.accordion input{
+	display: none;
+}
+.accordion article{
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	z-index: 10;
+	-webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+.accordion article p{
+	color: #777;
+	line-height: 23px;
+	font-size: 14px;
+	padding: 10px 20px;
+}
+.accordion input:checked ~ article{
+	background-color: #f5f5f5;
+	border-left: 3px solid #fa6f00;
+}
+
+.accordion input:checked ~ article.small{
+	height:85px;
+}
+.accordion input:checked ~ article.medium{
+	height: 130px;
+}
+.accordion input:checked ~ article.large{
+	height: 180px;
+}
+.accordion input:checked ~ article.xlarge{
+	height: 300px;
+}
+
+/*end accordion*/
+
+
+
+
+
+
+
+
+
+
+/*Start broker_info*/
+
+.broker_info {
+	width: 25%;
+	margin: 0px 0 50px 3%;
+	padding: 15px 2%;
+	text-align: left;
+	display: inline-block;
+	background-color:#4a0c0d;
+	color: #ffffff;
+	vertical-align: top;
+}
+
+.broker_info h2{
+	margin: 0;
+	display: inline-block;
+	font-size: 24px;
+}
+
+.broker_info a.start_trading{
+	background-color: #ffffff;
+	display: inline-block;
+	float: right;
+	padding: 4px 7px;
+	box-shadow: -2px 2px 0 rgba(62,65,74,0.3);
+}
+
+.broker_info a.start_trading:hover{
+	background-color: #ECECEC;
+}
+.broker_info a:focus{
+	margin: 1px;
+	box-shadow: none;
+}
+
+.broker_info .info{
+	border-top: 1px solid rgba(255,253,253,0.48);
+	margin-top: 5px;
+}
+
+.broker_info .info p{
+	margin: 10px 0;
+}
+
+.broker_info .info a{
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+/*end broker_info*/
+
+
+
+
+
+/*start all review*/
+
+.all_review {
+	text-align: left;
+	margin: 20px 0;
+}
+.all_review p{
+	text-align: left;
+	color: #4a0c0d;
+	font-size: 18px;
+	margin: 10px 0 5px 0;
+}
+.all_review a{
+	text-align: left;
+	background-color: #f5f5f5;
+	padding: 3px 10px;
+	color: #4a0c0d;
+	font-size: 13px;
+	margin: 2px 2px 4px 0;
+	display: inline-block;
+	transition: all ease-in 0.15s;
+	-moz-transition: all ease-in 0.15s;
+	-webkit-transition: all ease-in 0.15s;
+	-o-transition: all ease-in 0.15s;
+}
+.all_review a:hover{
+	background-color: #4a0c0d;
+	color: #ffffff;
+}
+
+
+/*end all_review*/
+
+
+section button.start_trading {
+	margin: 20px auto;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	background-color: #fa6f00;
+	padding: 14px 30px;
+	transition: all ease-in 0.15s;
+	-moz-transition: all ease-in 0.15s;
+	-webkit-transition: all ease-in 0.15s;
+	-o-transition: all ease-in 0.15s;
+}
+section button.start_trading a {	
+}
+section button.start_trading:hover {
+	background-color: #4a0c0d; 
+}
+
+/**/
+
+
+
+
+
+
+/*Start blog*/
+
+section.blog h1{
+	font-size: 26px;
+	margin: 0;
+}
+
+section.blog article{
+	margin: 30px 0;
+	font-size: 14px;
+}
+
+section.blog article img{
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+section.blog article h3 {
+	margin: 0;
+	color: #575757
+}
+section.blog article p {
+	margin-top: 4px;
+}
+/*end_blog*/
+
+
+
+
+
+
+
+
+ /*---------------Start trading_assest-------------------*/
+ 
+.banner .trading_assest .text_banner h2 {
+	font-size: 36px;
+	margin: 0 0 0 0;
+}
+.banner .wrapper.trading_assest {
+	max-width: 860px;
+}
+.banner .trading_assest img.assest_logo {
+	display: block;
+	margin: 40px 0 20px 0;
+}
+
+.banner .trading_assest .text_banner img.broker_logo {
+	vertical-align: middle;
+}
+ .banner .trading_assest .text_banner h4 {
+	font-size: 26px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 60px;
+	padding-right: 20px;
+}
+.banner .trading_assest img.computer_img {
+	position: absolute;
+	top: 35px;
+	right: 20px;
+}
+
+
+
+
+
+/*input trading_assest*
+.filters {
+	text-align: left;
+	margin: 40px 0 30px;
+}
+
+.filters label{
+	border: 1px solid #fa6f00;
+	background-color: transparent;
+	color: #fa6f00;
+	padding: 8px 18px;
+	margin-right: 8px;
+	font-weight: 700;
+	font-size: 15px;
+	transition: all ease-in 0.2s;
+	-moz-transition: all ease-in 0.2s;
+	-webkit-transition: all ease-in 0.2s;
+	-o-transition: all ease-in 0.2s;
+	z-index: 20;
+	display: inline-block;
+	cursor: pointer;
+}
+.filters label:hover{
+	border: 1px solid #fa6f00;
+	background-color: #fa6f00;
+	color: #ffffff;
+}
+
+.filters input:checked + label,
+.filters input:checked + label:hover{
+	border: 1px solid #fa6f00;
+	background-color: #fa6f00;
+	color: #ffffff;
+}
+.filters input{
+	display: none;
+}
+
+.stock, .currencies, .commodies, .indices {
+	display: none;
+}
+section.wrapper input#stock:checked ~ .stock, input#currencies:checked .currencies, input#commodies:checked .commodies, input#indices:checked .indices {
+	display: block;
+}
+/*End nav trading_assest*/
+
+
+.stock, .currencies, .commodies, .indices {
+	text-align: left;
+}
+.currencies, .commodies, .indices {
+	display: none;
+}
+/*nav trading_assest*/
+nav.trading_assest {
+	text-align: left;
+	margin: 40px 0 30px;
+}
+nav.trading_assest a{
+	border: 1px solid #fa6f00;
+	color: fa6f00;
+	padding: 8px 18px;
+	margin-right: 8px;
+	font-weight: 700;
+	font-size: 15px;
+	transition: all ease-in 0.2s;
+	-moz-transition: all ease-in 0.2s;
+	-webkit-transition: all ease-in 0.2s;
+	-o-transition: all ease-in 0.2s;
+}
+nav.trading_assest a.active, nav.trading_assest a:hover{
+	border: 1px solid #fa6f00;
+	background-color: #fa6f00;
+	color: #ffffff;
+}
+/*End nav trading_assest*/
+
+
+
+/*assest_box*/
+.assest_box {
+	width: 24%;
+	height: 300px;
+	padding: 3% 2%;
+	margin: 15px 1.5%;
+	background-color: #f1f1f1;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	position: relative;
+	transition: all ease-in 0.2s;
+	-moz-transition: all ease-in 0.2s;
+	-webkit-transition: all ease-in 0.2s;
+	-o-transition: all ease-in 0.2s;
+}
+.assest_box:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	transform: scale(1.02,1.02);
+	-moz-transform: scale(1.02,1.02);
+	-webkit-transform: scale(1.02,1.02);
+	-o-transform: scale(1.02,1.02);
+}
+.assest_box img.assest_logo{
+	max-width: 70%;
+	max-height: 45px;
+	margin: 0 15%;
+}
+.assest_box h3{
+	color: #4a0c0d;
+}
+.assest_box p{
+	font-size: 13px;
+}
+.assest_box p{
+	font-size: 13px;
+	margin-bottom: 20px;
+	max-height: 95px;
+	overflow: hidden;
+}
+.assest_box a{
+	background-color: #4a0c0d;
+	padding: 5px 20px;
+	color: #ffffff;
+	font-weight: 700;
+	transition: all ease-in 0.15s;
+	-moz-transition: all ease-in 0.15s;
+	-webkit-transition: all ease-in 0.15s;
+	-o-transition: all ease-in 0.15s;
+}
+.assest_box a:hover{
+	background-color: #fa6f00;
+}
+.assest_box img.broker_logo{
+	display: block;
+	width: 40%;
+	margin: 30px auto 0;
+	position: absolute;
+	bottom: 20px;
+	left: 30%;
+}
+/*assest_box*/
+
+
+
+
+
+/*
+.trading_assest {
+	opacity: 0;
+	animation: imageAnimation 10s linear infinite 0s;  
+	-webkit-animation: imageAnimation 10s linear infinite 0s;
+    -moz-animation: imageAnimation 10s linear infinite 0s;
+    -o-animation: imageAnimation 10s linear infinite 0s;
+    -ms-animation: imageAnimation 10s linear infinite 0s;
+}
+.trading_assest div:nth-child(1) {
+	background-image: url(../images/road.png);
+	animation-delay: 0s; 
+	-webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    -ms-animation-delay: 0s;
+}
+.trading_assest div:nth-child(2) {
+	background-image: url(../images/phone-car.png);
+	animation-delay: 5s; 
+	-webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -o-animation-delay: 5s;
+    -ms-animation-delay: 5s;
+}
+
+@keyframes imageAnimation { 
+    0% { opacity: 0}
+	3% { opacity: 1}
+	50% { opacity: 1}
+	53% { opacity: 0}
+	100% { opacity: 0}
+}
+@-webkit-keyframes imageAnimation { 
+	0% { opacity: 0}
+	3% { opacity: 1}
+	50% { opacity: 1}
+	53% { opacity: 0}
+	100% { opacity: 0}
+}
+@-moz-keyframes imageAnimation { 
+	0% { opacity: 0}
+	3% { opacity: 1}
+	50% { opacity: 1}
+	53% { opacity: 0}
+	100% { opacity: 0}
+}
+@-o-keyframes imageAnimation { 
+	0% { opacity: 0}
+	3% { opacity: 1}
+	50% { opacity: 1}
+	53% { opacity: 0}
+	100% { opacity: 0}
+}
+@-ms-keyframes imageAnimation { 
+	0% { opacity: 0}
+	3% { opacity: 1}
+	50% { opacity: 1}
+	53% { opacity: 0}
+	100% { opacity: 0}
+}
+
+*/
+
+ /*----------end trading_assest-----*/
+
+
+
+
+/*binary_option_news*/
+
+.binary_option_news {
+	text-align: center;
+	text-align: left;
+}
+.news .binary_option_news .financial_new {
+	width:  40%;
+	margin: 15px 1.5%;
+}
+/**/
+
+
+
+
+/*FAQs*/
+
+.banner.faqs_banner {
+	height: auto;
+	background-image: url(../image/bg_banner_FAQs2.png);
+}
+.banner.faqs_banner h1 {
+	font-size: 53px;
+	text-align: center;
+	margin: 43px 20px;
+}
+
+.banner .text_banner h4 {
+	font-size: 16px;
+	color: #4a0c0d;
+}
+
+.banner img.banner_img {
+	position: absolute;
+	top: 55px;
+	right: 55px;
+}
+
+/*to accordion*/
+.faq_page .accordion label:before {
+    content: "+";
+    font-size: 1em;
+    line-height: 0.5em;
+    position: absolute;
+	right: 13px;
+	top: 17px;
+    transition: transform 0.3s ease-in-out 0s;
+}
+.faq_page .accordion input:checked ~ label:before {
+    transform: rotate(-405deg);
+} 
+/*accordion*/
+
+/*End FAQs*/
+
+
+
+
+
+
+/*Start Contact us*/
+.contact_form, .contact_details{
+	width: 400px;
+	margin: 20px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+.contact_form input[type="text"], .contact_form textarea, .contact_form input[type="submit"] {
+	width: 94%;
+	padding: 10px 3%;
+	font-size: 15px;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #fa6f00;
+	margin: 5px 0;
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.contact_form textarea {
+	width: 94%;
+	max-width: 94%;
+	min-width: 94%;
+	height: 80px;
+	min-height: 80px;
+}
+.contact_form input[type="submit"] {
+	cursor: pointer;
+	background-color: #FA6F00;
+	color: #ffffff;
+	border: none;
+	transition: all ease-out 0.25s;
+	-moz-transition: all ease-out 0.25s;
+	-webkit-transition: all ease-out 0.25s;
+	-o-transition: all ease-out 0.25s;
+}
+.contact_form input[type="submit"]:hover {
+	background-color: #4A0C0D;
+}
+
+.contact_details article{
+	margin: 0 0 20px 0;
+}
+.contact_details p{
+	margin: 7px 0;
+}
+.contact_details p a{
+	color: #7A7A7A;
+	text-decoration: underline;
+}
+
+#map_canvas {
+	width: 100%;
+	height: 400px;
+	margin-bottom: -40px;
+}
+/*End Contact us*/
+
+
+
+
+
